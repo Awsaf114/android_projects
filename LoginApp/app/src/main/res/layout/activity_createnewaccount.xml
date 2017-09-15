@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ex.kamrul.loginapp.createnewaccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name:" />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name:" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address:" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email Adress"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name :" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="User Name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Password :" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/show"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:text="show"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/birthdate"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick Date OF birth" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/txtsz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Gender :" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Female" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/termsandcondition" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Create A new Account" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

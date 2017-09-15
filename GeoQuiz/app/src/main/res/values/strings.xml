@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="True_button">True</string>
+    <string name="False_button">False</string>
+    <string name="Correct">The ans is correct</string>
+    <string name="Incorrect">THe ans is incorrect</string>
+    <string name="next_button">Next Button</string>
+
+    <string name="q_ocean">The pacific ocean is larger than atlantic ocean</string>
+    <string name="q_africa">The surce of nile river is egypt</string>
+    <string name="q_usa">Amazon is the long river in usa</string>
+    <string name="q_asia">Japan is bigger than india</string>
+    <string name="q_bd">Bangladesh is richer than usa</string>
+
+    <string name="Warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="Judgment_toast">Cheating is wrong</string>
+    <string name="title_activity_cheat">Cheat!</string>
+</resources>
